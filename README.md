@@ -1,2 +1,2 @@
-# strategy_tour_2020
-Case for the Strategy Tour of 2020
+# 2020_ecd
+Case for the Econometric Career Days in Rotterdam of 2020
