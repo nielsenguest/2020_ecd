@@ -18,12 +18,12 @@ Socio Demographic, sd_hhsize_group_3plus, "Dummy: 1 if the respondent lives in a
 Control Variable, ctrl_viewing_tv, Minutes of TV the respondent has watched in the two weeks before the movie premiere
 Control Variable, ctrl_viewing_tv_light, "Dummy: 1 if the respondent watched TV less than 60 hours in the two weeks before the movie premiere, 0 otherwise"
 Control Variable, ctrl_viewing_tv_heavy, "Dummy: 1 if the respondent watched TV 60 hours or more in the two weeks before the movie premiere, 0 otherwise"
-Control Variable, ctrl_total_hallmark, Minutes of Hallmark Channel the respondent has watched in the two weeks before the movie premiere
+Control Variable, ctrl_viewing_hallmark, Minutes of Hallmark Channel the respondent has watched in the two weeks before the movie premiere
 Control Variable, ctrl_viewing_hallmark_light, "Dummy: 1 if the respondent watched Hallmark Channel less than 4 hours in the two weeks before the movie premiere, 0 otherwise"
 Control Variable, ctrl_viewing_hallmark_heavy, "Dummy: 1 if the respondent watched Hallmark Channel 4 hours or more in the two weeks before the movie premiere, 0 otherwise"
 Control Variable, ctrl_watchedpreviousmovie, Whether the respondent watched the Hallmark movie that aired the day before this movie premiere
-Control Variable, ctrl_total_inherited_viewing, Whether the respondent was watching TV in the 15 minutes prior to the movie premiere
-Control Variable, ctrl_hallmark_inherited_viewing, Whether the respondent was watching Hallmark Channel in the 15 minutes prior to the movie premiere
+Control Variable, ctrl_inherited_viewing_tv, Whether the respondent was watching TV in the 15 minutes prior to the movie premiere
+Control Variable, ctrl_inherited_viewinghallmark_, Whether the respondent was watching Hallmark Channel in the 15 minutes prior to the movie premiere
 Media, media_on_hallmark, The amount of commercials the respondent saw before the movie premiere via Hallmark Channel
 Media, media_cross_hallmarkdrama, The amount of commercials the respondent saw before the movie premiere via Hallmark Channel's cross channel Hallmark Drama
 Media, media_cross_hallmarkmoviesandmysteries, The amount of commercials the respondent saw before the movie premiere via Hallmark Channel's cross channel Hallmark Movies & Mysteries
