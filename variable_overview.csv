@@ -1,39 +1,30 @@
-﻿Group,Variable,Definition
-Respondent ID,id_respondent,Unique identifier for respondent
-KPI,kpi_familiarity_raw,How familiar are you with the Video-on-Demand service Amazon Prime?
-KPI,kpi_familiarity,Dummy: 1 if the respondent indicates to know at least a little bit about the service
-Socio Demographic,sd_age,What is your age?
-Socio Demographic,sd_age_group_18_26,"Dummy: 1 if the respondent's age is between 18 and 26, 0 otherwise"
-Socio Demographic,sd_age_group_27_35,"Dummy: 1 if the respondent's age is between 27 and 35, 0 otherwise"
-Socio Demographic,sd_age_group_36_44,"Dummy: 1 if the respondent's age is between 36 and 44, 0 otherwise"
-Socio Demographic,sd_age_group_45_55,"Dummy: 1 if the respondent's age is between 45 and 55, 0 otherwise"
-Socio Demographic,sd_gender,What is your gender?
-Socio Demographic,sd_gender_Male,"Dummy: 1 if the respondent is male, 0 otherwise"
-Socio Demographic,sd_gender_Female,"Dummy: 1 if the respondent is female, 0 otherwise"
-Socio Demographic,sd_education,What is your level of education?
-Socio Demographic,sd_education_group_High_school_or_lower,"Dummy: 1 if the respondent went to high school or lower (i.e. primary school, high school or College of Technology), 0 otherwise"
-Socio Demographic,sd_education_group_Higher_education,"Dummy: 1 if the respondent did higher education (i.e. university), 0 otherwise"
-Socio Demographic,sd_education_group_Master_or_postgraduate,"Dummy: 1 if the respondent did a Postgraduate/Master/Doctorate education, 0 otherwise"
-Socio Demographic,sd_education_group_No_answer,"Dummy: 1 if the respondent didn't want to answer the education question, 0 otherwise"
-Socio Demographic,sd_householdincome,Which income bracket best describes your household income?
-Socio Demographic,sd_householdincome_group_0to2,"Dummy: 1 if the household income is between 0 to 2 minimum wages, 0 otherwise"
-Socio Demographic,sd_householdincome_group_2to5,"Dummy: 1 if the household income is between 2 to 5 minimum wages, 0 otherwise"
-Socio Demographic,sd_householdincome_group_5to10,"Dummy: 1 if the household income is between 5 to 10 minimum wages, 0 otherwise"
-Socio Demographic,sd_householdincome_group_10ormore,"Dummy: 1 if the household income is 10 or more minimum wages, 0 otherwise"
-Socio Demographic,sd_householdincome_group_No_answer,"Dummy: 1 if the respondent didn't want to answer the household income question, 0 otherwise"
-Control Variable,ctrl_cabletv,Does your house have cable TV subscription?
-Control Variable,ctrl_cabletv_Yes,"Dummy: 1 if the respondent's house has cable TV subscription, 0 otherwise"
-Control Variable,ctrl_cabletv_No_but_in_the_past,"Dummy: 1 if the respondent's house doesn't have cable TV subscription now but had it in the past, 0 otherwise"
-Control Variable,ctrl_cabletv_No_and_never_had,"Dummy: 1 if the respondent's house doesn't have and never had cable TV subscription, 0 otherwise"
-Control Variable,ctrl_amazonprime,"Dummy: 1 if the respondent is already subscribed to Amazon Prime, 0 otherwise"
-Control Variable,ctrl_subscription_otherservices_0,"Dummy: 1 if the respondent is subscribed to no other Video-on-Demand services, 0 otherwise"
-Control Variable,ctrl_subscription_otherservices_1,"Dummy: 1 if the respondent is subscribed to 1 other Video-on-Demand services, 0 otherwise"
-Control Variable,ctrl_subscription_otherservices_2ormore,"Dummy: 1 if the respondent is subscribed to 2 or more other Video-on-Demand services, 0 otherwise"
-Control Variable,ctrl_interest_moviesseries_Not_interested,"Dummy: 1 if the respondent is not interested in movies or series, 0 otherwise"
-Control Variable,ctrl_interest_moviesseries_A_bit_interested,"Dummy: 1 if the respondent is a bit interested in movies or series, 0 otherwise"
-Control Variable,ctrl_interest_moviesseries_Very_interested,"Dummy: 1 if the respondent is very interested in movies or series, 0 otherwise"
-Media,media_dooh,The amount of exposures the respondent had at the interview date via Digital Out Of Home (e.g. digital screens in/on buildings)
-Media,media_ooh,The amount of exposures the respondent had at the interview date via Out Of Home (e.g. ads in/on busses)
-Media,media_radio,The amount of exposures the respondent had at the interview date via Radio
-Media,media_social,"The amount of exposures the respondent had at the interview date via Social Media (e.g. Facebook, Instagram, influencers)"
-Media,media_youtube,The amount of exposures the respondent had at the interview date via YouTube
+Group,	Variable,	Definition
+Respondent ID,	id_respondent,	Unique identifier for respondent
+KPI,	kpi	,	Dummy: 1 if the respondent watched at least 1 minute of the movie
+Socio Demographic,	sd_age,	Respondent's age (years)
+Socio Demographic,	sd_age_group_25_34,	Dummy: 1 if the respondent's age is between 25 and 34, 0 otherwise
+Socio Demographic,	sd_age_group_35_44,	Dummy: 1 if the respondent's age is between 35 and 44, 0 otherwise
+Socio Demographic,	sd_age_group_45_54,	Dummy: 1 if the respondent's age is between 45 and 54, 0 otherwise
+Socio Demographic,	sd_gender	,	Respondent's gender
+Socio Demographic,	sd_gender_male,	Dummy: 1 if the respondent is male, 0 otherwise
+Socio Demographic,	sd_gender_female,	Dummy: 1 if the respondent is female, 0 otherwise
+Socio Demographic,	sd_education,	Respondent's education level
+Socio Demographic,	sd_education_group_primaryorhighschool,	Dummy: 1 if the respondent went to primary or high school only, 0 otherwise
+Socio Demographic,	sd_education_group_somecollege,	Dummy: 1 if the respondent went to college for some years but didn't graduate, 0 otherwise
+Socio Demographic,	sd_education_group_collegegraduate,	Dummy: 1 if the respondent graduated from college, 0 otherwise
+Socio Demographic,	sd_hhsize	,	Respondent's household size
+Socio Demographic,	sd_hhsize_group_1or2,	Dummy: 1 if the respondent lives in a household of 1 or 2 people, 0 otherwise
+Socio Demographic,	sd_hhsize_group_3plus,	Dummy: 1 if the respondent lives in a household of 3 or more people, 0 otherwise
+Control Variable,	ctrl_viewing_tv	,	Minutes of TV the respondent has watched in the two weeks before the movie premiere
+Control Variable,	ctrl_viewing_tv_light,	Dummy: 1 if the respondent watched TV less than 60 hours in the two weeks before the movie premiere, 0 otherwise
+Control Variable,	ctrl_viewing_tv_heavy,	Dummy: 1 if the respondent watched TV 60 hours or more in the two weeks before the movie premiere, 0 otherwise
+Control Variable,	ctrl_total_hallmark,	Minutes of Hallmark Channel the respondent has watched in the two weeks before the movie premiere
+Control Variable,	ctrl_viewing_hallmark_light,	Dummy: 1 if the respondent watched Hallmark Channel less than 4 hours in the two weeks before the movie premiere, 0 otherwise
+Control Variable,	ctrl_viewing_hallmark_heavy,	Dummy: 1 if the respondent watched Hallmark Channel 4 hours or more in the two weeks before the movie premiere, 0 otherwise
+Control Variable,	ctrl_watchedpreviousmovie	,	Whether the respondent watched the Hallmark movie that aired the day before this movie premiere
+Control Variable	,	ctrl_total_inherited_viewing,	Whether the respondent was watching TV in the 15 minutes prior to the movie premiere
+Control Variable,	ctrl_hallmark_inherited_viewing,	Whether the respondent was watching Hallmark Channel in the 15 minutes prior to the movie premiere
+Media,	media_on_hallmark,	The amount of commercials the respondent saw before the movie premiere via Hallmark Channel
+Media,	media_cross_hallmarkdrama,	The amount of commercials the respondent saw before the movie premiere via Hallmark Channel's cross channel Hallmark Drama
+Media,	media_cross_hallmarkmoviesandmysteries,	The amount of commercials the respondent saw before the movie premiere via Hallmark Channel's cross channel Hallmark Movies & Mysteries
+Media,	media_off_total,	The amount of commercials the respondent saw before the movie premiere via any other TV channel
